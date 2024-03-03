@@ -22,6 +22,12 @@ public class Words {
             case 3:
                 choosedWord = (wordsIT.values()[(int) (Math.random() * wordsIT.values().length)]).toString();
                 break;
+            case 4:
+                choosedWord = (country.values()[(int) (Math.random() * country.values().length)]).toString();
+                break;
+            case 5:
+                choosedWord = (profession.values()[(int) (Math.random() * profession.values().length)]).toString();
+                break;
         }
         return choosedWord;
 
@@ -165,6 +171,93 @@ public class Words {
         WAN,
         MAN,
         RAID
+    }
+
+
+    public enum country {
+        USA,
+        CANADA,
+        UK,
+        GERMANY,
+        FRANCE,
+        AUSTRALIA,
+        JAPAN,
+        CHINA,
+        INDIA,
+        BRAZIL,
+        ARGENTINA,
+        ITALY,
+        MEXICO,
+        SPAIN,
+        RUSSIA,
+        INDONESIA,
+        TURKEY,
+        IRAN,
+        EGYPT,
+        NIGERIA,
+        PAKISTAN,
+        BANGLADESH,
+        VIETNAM,
+        PHILIPPINES,
+        THAILAND,
+        MALAYSIA,
+        NETHERLANDS,
+        SWITZERLAND,
+        SWEDEN,
+        NORWAY,
+        FINLAND,
+        DENMARK,
+        BELGIUM,
+        AUSTRIA,
+        GREECE,
+        PORTUGAL,
+        POLAND,
+        HUNGARY,
+        ROMANIA,
+        UKRAINE,
+        IRELAND,
+        ISRAEL,
+        SINGAPORE
+    }
+
+    public enum profession {
+        DEVELOPER,
+        DOCTOR,
+        ENGINEER,
+        TEACHER,
+        LAWYER,
+        CHEF,
+        ARTIST,
+        PILOT,
+        ATHLETE,
+        MUSICIAN,
+        WRITER,
+        NURSE,
+        ARCHITECT,
+        ACCOUNTANT,
+        DENTIST,
+        PSYCHOLOGIST,
+        PHARMACIST,
+        VETERINARIAN,
+        FIREFIGHTER,
+        PARAMEDIC,
+        MECHANIC,
+        ELECTRICIAN,
+        PLUMBER,
+        FARMER,
+        JOURNALIST,
+        ACTOR,
+        DIRECTOR,
+        BANKER,
+        REALTOR,
+        PHYSIOTHERAPIST,
+        ASTRONAUT,
+        ENTREPRENEUR,
+        FLORIST,
+        HAIRSTYLIST,
+        JUDGE,
+        LIBRARIAN,
+        BIOLOGIST
     }
 
 }

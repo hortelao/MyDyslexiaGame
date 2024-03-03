@@ -115,6 +115,10 @@ public class Game implements Runnable {
                     return ("Both chose the Category:\n"+"\u001B[33m"+"Movies"+"\u001B[0m");
                 case 3:
                     return ("Both chose the Category:\n"+"\u001B[33m"+"IT Related"+"\u001B[0m");
+                case 4:
+                    return ("Both chose the Category:\n"+"\u001B[33m"+"Countries"+"\u001B[0m");
+                case 5:
+                    return ("Both chose the Category:\n"+"\u001B[33m"+"Professions"+"\u001B[0m");
             }
         } else {
             this.getCategoryMenu = (int) Math.ceil(Math.random() * 2);
@@ -126,6 +130,10 @@ public class Game implements Runnable {
                     return ("None of you agreed with the same thing, so  I chose it for you, Category is:\n"+"\u001B[33m"+"Movies"+"\u001B[0m");
                 case 3:
                     return ("None of you agreed with the same thing, so  I chose it for you, Category is:\n"+"\u001B[33m"+"IT Related"+"\u001B[0m");
+                case 4:
+                    return ("None of you agreed with the same thing, so  I chose it for you, Category is:\n"+"\u001B[33m"+"Countries"+"\u001B[0m");
+                case 5:
+                    return ("None of you agreed with the same thing, so  I chose it for you, Category is:\n"+"\u001B[33m"+"Professions"+"\u001B[0m");
             }
 
 

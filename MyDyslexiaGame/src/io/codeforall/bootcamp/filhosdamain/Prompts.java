@@ -18,7 +18,7 @@ public class Prompts {
 
         Prompt prompt = new Prompt(clientSocket.getInputStream(), new PrintStream(clientSocket.getOutputStream()));
 
-        String[] options = {"Animal", "Movies", "IT Related"};
+        String[] options = {"Animal", "Movies", "IT Related", "Countries", "Professions"};
 
         MenuInputScanner scanner = new MenuInputScanner(options);
         scanner.setMessage("Which category do you want to play?");
