@@ -26,3 +26,16 @@ Let's dive in and have a blast!
 
 ______________________________________________
 Game made by: Igor Leandro and Andre Hortelao
+
+## Technical Details
+
+### Description
+This is a text-based game developed in Java where players unscramble words to score points.
+
+### Technologies Used
+- **Java**: The main programming language used for development.
+- **org.academiadecodigo.bootcamp.Prompt**: A package used for handling user input.
+
+### Usage
+- Set the desired port number at the beginning of the JAR file.
+- Run the JAR file to start the game.
